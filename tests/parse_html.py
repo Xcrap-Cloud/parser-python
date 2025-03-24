@@ -1,4 +1,4 @@
-from spy_parser import HtmlParsingModel
+from spy_parser import HtmlParsingModel, HtmlParser
 
 print("Parsing HTML")
 
@@ -16,3 +16,11 @@ root_parsing_model = HtmlParsingModel({
 data = root_parsing_model.parse(html)
 
 print(data)
+
+parser = HtmlParser(html)
+
+title = parser.parse_first("title::text")
+headings = parser.parse_many("h1::text")
+
+print(f"Title: {title}")
+print(f"Headings: {headings}")
