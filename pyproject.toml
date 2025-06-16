@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "spy-parser"
-version = "0.1.0"
-description = "Spy Parser a is oriented model  HTML and JSON Parser"
-authors = ["Marcuth <marcuth@example.com>"]
+name = "xcrap-parser"
+version = "0.1.1"
+description = "Xcrap Parser is a declarative, model-driven parser for extracting data from HTML and JSON files, with the ability to interleave both to extract even more information."
+authors = ["Marcuth <contact@marcuth.dev>"]
 license = "MIT"
 readme = "README.md"
 

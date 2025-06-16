@@ -24,3 +24,5 @@ headings = parser.parse_many("h1::text")
 
 print(f"Title: {title}")
 print(f"Headings: {headings}")
+
+HtmlParser.load_file()
